@@ -17,8 +17,17 @@ public class ArraysTest {
             new String[]{"Python", "JAVA", "PHP", "C#", "C++", "SQL"},
             new String[]{"MySQL", "SQL", "SQLite", "Oracle", "PostgreSQL", "DB2", "JAVA"},
             new String[]{"JAVA", "SQL"}
-        }
-        // TODO add 2 more test data here
+        },
+            {
+                    new String[]{"Python", "Python", "Python", "C#"},
+                    new String[]{"Python", "Python", "C#"},
+                    new String[]{"Python", "C#"}
+            },
+            {
+                    new String[]{"Python", "Java", "C#"},
+                    new String[]{"C++", "C", "Dart"},
+                    new String[]{}
+            }
     };
   }
 

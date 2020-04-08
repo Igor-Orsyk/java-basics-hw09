@@ -21,18 +21,12 @@ public class ArrayUtil {
 
     for(String upper_element : array1){
       for (String lower_element : array2){
-        if (upper_element == lower_element){
+        if (upper_element.equals(lower_element)){
           if(!common.contains(upper_element)){
             common.add(upper_element);}
         }
       }
     }
-    result = new String[common.size()];
-
-    for(int i = 0; i != common.size(); i++ ){
-      result [i] = common.get(i);
-    }
-
-    return result;
+    return common.toArray(new String[0]);
   }
 }
